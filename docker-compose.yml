@@ -1,0 +1,8 @@
+---
+version: '3.0'
+
+services:
+  gg_crawler:
+    build: python
+    volumes:
+     - /python/dwnl:/usr/src/app/dwnl
